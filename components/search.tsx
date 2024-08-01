@@ -418,8 +418,8 @@ export function GlobeDemo() {
           <div className="flex justify-center items-center mx-96"><Input  placeholder="Search..." className="bg-slate-700 rounded-full mt-4"></Input></div>
           </h2>
           <div className="flex items-center justify-center gap-4 mt-4">
-          <Button className="rounded-full" variant={"secondary"}><FaSearch /> Google</Button>
-          <Button className="rounded-full" variant={"secondary"}>I'm Feeling Lucky</Button>
+         <Button className="rounded-full" variant={"secondary"}><FaSearch />&nbsp;Google</Button>
+          <Button className="rounded-full" variant={"secondary"}>I&#39;m Feeling Lucky</Button>
           </div>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent to-black z-40" />
