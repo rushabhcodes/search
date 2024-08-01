@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { FaSearch } from "react-icons/fa";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
   ssr: false,
@@ -427,6 +428,7 @@ export function GlobeDemo() {
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
+      <BackgroundBeams />
     </div>
   );
 }
